@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    text-align: center;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	color: rgb(133,207,189);
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	color: rgb(133,207,189);
+	text-align: center;
+}
+
+#box-1{
+	background-color: rgb(133,207,189);
+}
