@@ -3,8 +3,8 @@ body {
 }
 
 h1 {
-    font-family: 'Raleway', sans-serif;
     color: white;
+    font-family: 'Raleway', sans-serif;
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
@@ -13,8 +13,8 @@ h1 {
 }
 
 h2 {
-	font-family: 'Raleway', sans-serif;
 	color: rgb(133,207,189);
+    font-family: 'Raleway', sans-serif;
     padding-top: 30px;
     padding-right: 30px;
     padding-bottom: 0px;
@@ -23,11 +23,37 @@ h2 {
 }
 
 p {
-	font-family: 'Raleway', sans-serif;
 	color: rgb(133,207,189);
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 50px;
 	text-align: center;
 }
 
-#box-1{
+.header {
 	background-color: rgb(133,207,189);
+}
+
+.slider {
+    margin: 10px auto;
+    width: 80%;
+}
+
+.slick-slide {
+    color: rgb(133,207,189);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: rgb(133,207,189) !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 50px !important;
+
 }
