@@ -1,5 +1,7 @@
-body {
+body, html {
     background-color: white;
+    padding: 0px;
+    margin: 0px;
 }
 
 h1 {
@@ -13,7 +15,7 @@ h1 {
 }
 
 h2 {
-	color: rgb(133,207,189);
+	color: rgb(0, 153, 153);
     font-family: 'Raleway', sans-serif;
     padding-top: 30px;
     padding-right: 30px;
@@ -33,15 +35,20 @@ p {
 	background-color: rgb(133,207,189);
 }
 
+.footer {
+    background-color: rgb(133,207,189);
+}
+
 .slider {
-    margin: 10px auto;
+    margin: 30px auto;
     width: 80%;
 }
 
 .slick-slide {
-    color: rgb(133,207,189);
+    color: grey;
     font-family: 'Raleway', sans-serif;
-    font-size: 30px;
+    font-size: 26px;
+    font-style: italic;
     margin: 0px 20px;
     text-align: center;
 }
